@@ -2,8 +2,11 @@ from tkinter import *
 from tkinter import messagebox as mb
 from tkinter import ttk
 import requests
+
+# import json
+# import pprint
+# from bottle import response
 # Импорт bottle, json, pprint — не используются
-# Мзменить
 
 
 def update_currency_label(event):
