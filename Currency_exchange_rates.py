@@ -3,11 +3,12 @@ from tkinter import messagebox as mb
 from tkinter import ttk
 import requests
 
-# import json
-# import pprint
-# from bottle import response
+import json
+import pprint
+from bottle import response
 # Импорт bottle, json, pprint — не используются
 
+#ff = open('currencies.json', 'r')
 
 def update_currency_label(event):
     code = target_combobox.get()
